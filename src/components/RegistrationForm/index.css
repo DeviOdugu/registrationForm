@@ -1,0 +1,91 @@
+/* Write your CSS code here */
+.card-container {
+  color: #ffffff;
+  border: solid #efefef 2px;
+  margin: 20px;
+  padding: 250px;
+}
+@media screen and (max-width: 576px) {
+  .card-container {
+    padding: 10px;
+  }
+}
+
+.card {
+  color: #ffffff;
+  border: solid #efefef 4px;
+  border-radius: 16px;
+  padding: 30px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  color: #ea580c;
+  font-family: 'Roboto';
+  font-size: 30px;
+  text-align: center;
+}
+
+.label {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.name {
+  color: #cbd2d9;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.submit-button {
+  background-color: #ea580c;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 10px;
+  border-radius: 6px;
+  border: none;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.submit-button-response {
+  background-color: #ea580c;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 10px;
+  border-radius: 6px;
+  border: none;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.error {
+  font-family: 'Roboto';
+  color: #ff0b37;
+  font-size: 10px;
+}
+
+.card1 {
+  color: #ffffff;
+  border: solid #efefef 4px;
+  border-radius: 16px;
+  padding: 30px;
+  margin: 20px;
+  text-align: center;
+}
+
+.s {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 10px;
+  text-align: center;
+}
